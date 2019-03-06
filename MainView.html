@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Main View</title>
+<link rel="stylesheet" type="text/css" href="MainView.css" />
+</head>
+<body>
+<header id="header">
+	<div id="search">
+	
+	<br/>
+	<form name="검색 기능" id="searchForm" action="" method="">
+        <select class="searchSelect" name="정렬">
+            <option value="날짜순">날짜순</option>
+            <option value="이름순">이름순</option>
+            <option value="수정순">수정순</option>
+        </select>
+        <!--  <select class="searchSelect" name="조 선택">
+            <option value="1조">1조</option>
+            <option value="2조">2조</option>
+            <option value="3조">3조</option>
+        </select>-->
+     
+        <input type='button' class="searchSelect" value='검색'/> <div id="searchResult">검색결과: x건</div>
+        <div id="pageName"><h1>Main View</h1></div>
+    </form></div>
+	<div id="personalInformation">
+	<p id="userName">____님 안녕하세요.</p>
+	</div>
+</header>
+<section>
+<br/>
+	<div class="content1">
+    	<form name="글쓰기" action="값을 보낼 주소" method="post" id="writingForm">
+        	<input type='button' id="writing" value='글쓰기 '/>
+    	</form>     
+    </div>
+    <div class="content2">
+    	<table border="1">
+			<tr>
+				<td>올린이</td><td>제목</td><td>시간</td><td>다운로드</td>
+			</tr>
+		</table>
+    </div>
+</section>
+<footer>
+	<a href="https://www.nsu.ac.kr/?m1=home%25" target="_blank">
+		<img src="Namseoul.png" alt="go to Namseoul page"/>
+	</a>
+</footer> 
+<!--  
+<div>
+    <div class="header">
+    <form name="검색 기능" action="" method="">
+        <select name="정렬">
+            <option value="날짜순">날짜순</option>
+            <option value="이름순">이름순</option>
+            <option value="수정순">수정순</option>
+        </select>
+        <select name="조 선택">
+            <option value="1조">1조</option>
+            <option value="2조">2조</option>
+            <option value="3조">3조</option>
+        </select>
+        <input type='button' value='검색'/> <p>검색결과: x건</p>
+    </form>
+        
+    </div>
+    <br/>
+    <div class="container">
+        <div class="content">
+            <div class="content1">
+             <form name="글쓰기" action="값을 보낼 주소" method="post">
+        		<input type='button' value='글쓰기 '/>
+    		 </form>
+                
+            </div>
+            <div class="content2">
+             <table border="1">
+				<tr>
+				<td>올린이</td><td>시간</td><td>제목</td><td>덧글 수</td><td>다운로드</td>
+				</tr>
+			 </table>
+               
+            </div>
+            <div class="content3">
+             <iframe src="http://localhost:8080/TestServer/MainView.html" style="width:80%" height="500" scrolling="yes">
+    		 </iframe>
+                
+            </div>
+        </div>
+        <div class="right">
+         <h1 class="userID">_님 안녕하세요</h1>
+         <p>접속일 수: y번</p>
+         <p> -접속 시간- </p>
+          <p id="date">
+		 	<script>
+			document.getElementById("date").innerHTML = Date();
+		 	</script>
+		  </p>
+		  <br/>
+		  <div class="advancedSerch">
+		 <h2>고급 검색</h2>
+		 <input type='button' value='내 게시글 보기' class="advancedSerchBtn"/> <br/>
+		 <input type='button' value='회의록 보기' class="advancedSerchBtn"/> <br/>
+		 <input type='button' value='계획서 보기' class="advancedSerchBtn"/> <br/>
+		 <input type='button' value='덧글 달린 글 보기' class="advancedSerchBtn"/> <br/> <br/>
+		 <input type='button' value='남서울 대학교 홈페이지로 이동' class="advancedSerchBtn"/><br/> <br/>
+		 <input type='button' value='마이페이지로 이동' class="advancedSerchBtn"/> <br/>
+           
+          </div>
+        </div>
+    </div>
+    	<div id="footer">
+       	 	
+    	</div>
+</div>
+-->
+	
+</body>
+</html>

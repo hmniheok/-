@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>레이아웃</title>
+<link rel="stylesheet" type="text/css" href="ProfessorMainView.css" />
+</head>
+<body>
+<header id="header">
+	<div id="search">
+	<br/>
+		<form name="검색 기능" id="searchForm" action="" method="">
+        <select class="searchSelect" name="정렬">
+            <option value="날짜순">날짜순</option>
+            <option value="이름순">이름순</option>
+            <option value="수정순">수정순</option>
+        </select>
+        <select class="searchSelect" name="조 선택">
+            <option value="1조">1조</option>
+            <option value="2조">2조</option>
+            <option value="3조">3조</option>
+        </select>
+     
+        <input type='button' class="searchSelect" value='검색'/> <div id="searchResult">검색결과: x건</div>
+        <div id="pageName"><h1>Main View</h1></div>
+    </form></div>
+	<div id="personalInformation">
+	<p id="userName">____님 안녕하세요.</p>
+	</div>
+</header>
+<section>
+<br/>
+<div id="sectionName">
+
+</div>
+	<div id="searchGroup">
+	<div class="newSearchSelect1">
+		<ul class="searchContent1" style="right: -17px;">
+		<li>날짜순</li>
+		<li>이름순</li>
+		<li>수정순</li>
+		</ul>
+	</div>
+	<div class="newSearchSelect2">
+		<ul class="searchContent2">
+		<li>1조</li>
+		<li>2조</li>
+		<li>3조</li>
+		</ul>
+	</div>
+	<div class="newSearchResult">
+	</div>
+	</div>
+	<!--  <div class="content1">
+    	<form name="글쓰기" action="값을 보낼 주소" method="post" id="writingForm">
+        	<input type='button' id="writing" value='글쓰기 '/>
+    	</form>     
+    </div>
+    <div class="content2">
+    	<table border="1">
+			<tr>
+				<td>올린이</td><td>제목</td><td>시간</td><td>다운로드</td>
+			</tr>
+		</table>
+    </div>-->
+</section>
+<footer>
+	<a href="https://www.nsu.ac.kr/?m1=home%25" target="_blank">
+		<img src="Namseoul.png" alt="go to Namseoul page"/>
+	</a>
+</footer>
+</body>
+</html>

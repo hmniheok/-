@@ -1,0 +1,24 @@
+@charset "UTF-8";
+html, body {margin: 0 auto;overflow: hidden;}
+/*header {height: 100px;background-color: #0e5ecf;}*/
+section {background-color: bisque;min-height: calc(100vh - 270px);margin-left:100px;margin-right:100px;}
+footer {height: 170px;background-color: #ffffff;text-align: center;}
+#header{height: 100px;background-color: #808080;}
+#search{float: left;width: calc(100% - 300px);height: 100%;}
+#searchForm{margin-left:50px;width:calc(100% - 200px);height:100%;}
+.searchSelect{float:left;width:150px;height:50px;}
+#searchResult{width:100px; height:50px;}
+#pageName{margin-left:700px;}
+#pageName h1{margin-top:-60px;}
+#personalInformation{float: left;width: 300px;height: 100%;background-color: #ffff80;}
+#userName{text-align:center;margin-top:40px;}
+#sectionName
+#searchGroup{height:570px;width:1100px;}
+.newSearchSelect1{float:left;margin-left:100px;height:560px;width:200px;background-color: #ff8000;}
+.newSearchSelect2{float:left;height:560px;width:200px;background-color: #00ff00;}
+.newSearchResult{float:left;height:560px;width:900px;background-color: #00ffff;}
+.content1{float:right;}
+#writingForm{margin-right:50px;}
+#writing{width:100px;height:50px;}
+.content2{margin-left:160px;margin-top:20px;}
+table tr td{width:270px;text-align:center;}
